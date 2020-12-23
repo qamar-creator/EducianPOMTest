@@ -3,6 +3,13 @@
 <suite parallel="tests" name="Failed suite [Suite dashboard]" guice-stage="DEVELOPMENT">
   <test thread-count="5" parallel="classes" name="Test1(failed)">
     <classes>
+      <class name="com.educian.Testcases.ValidateLoginTestcase">
+        <methods>
+          <include name="login"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.educian.Testcases.ValidateLoginTestcase -->
       <class name="com.educian.Testcases.createstudentTest">
         <methods>
           <include name="teardown"/>
