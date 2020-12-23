@@ -94,7 +94,7 @@
                    <forkCount>3</forkCount>
                    <reuseForks>True</reuseForks>
                    <suiteXmlFiles>
-                       <suiteXmlFile>/EducianPOMTest/testng.xml</suiteXmlFile>
+                       <suiteXmlFile>EducianPOMTest/testng.xml</suiteXmlFile>
                       
                    </suiteXmlFiles>
                     <testFailureIgnore>true</testFailureIgnore>
