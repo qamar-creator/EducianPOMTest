@@ -8,6 +8,7 @@ import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.interactions.Actions;
@@ -23,8 +24,7 @@ import org.testng.annotations.Test;
 import com.educian.utils.utils;
 
 import org.openqa.selenium.support.ui.Select;
-import io.testproject.sdk.DriverBuilder;
-import io.testproject.sdk.drivers.web.ChromeDriver;
+
 
 public class Testbase {
 
@@ -33,7 +33,7 @@ public class Testbase {
 	WebElement uploadElement;
      String  actualResult;
 	String expectedResult;
-	public static ChromeDriver driver;
+	public static WebDriver driver  ;
 	public Testbase() throws MalformedURLException
 	{
 		
@@ -56,19 +56,22 @@ public class Testbase {
 		}
 }
 	
-	public static void initialization() throws MalformedURLException 
+	public static void initialization()  
 	{
-		driver = new DriverBuilder<ChromeDriver>(new ChromeOptions())
+		
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\MinzaMushtaq3\\Downloads\\chromedriver.exe");
+		 driver =  new org.openqa.selenium.chrome.ChromeDriver();
+		/*driver = new DriverBuilder<ChromeDriver>(new ChromeOptions())
 				.withRemoteAddress(new URL("http://localhost:8585"))
 				.withToken("WHZ_iC8PTUJQ8eR4Btq5tDVK-jdmdAsvvMHLXggKiwg1")	
-				.build(ChromeDriver.class);
+				.build(ChromeDriver.class);*/
 		
-		
+		 driver.navigate().to(prop.getProperty("url"));
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().pageLoadTimeout(utils.page_load_timeout, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(utils.implicitwait, TimeUnit.SECONDS);
-		driver.get(prop.getProperty("url"));
+		//driver.get(prop.getProperty("url"));
 		
 	}
 }

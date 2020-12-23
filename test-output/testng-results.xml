@@ -2,48 +2,48 @@
 <testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-12-23T11:15:41 GMT+05:30" name="Suite dashboard" finished-at="2020-12-23T11:16:41 GMT+05:30" duration-ms="59552">
+  <suite started-at="2020-12-23T14:28:16 GMT+05:30" name="Suite dashboard" finished-at="2020-12-23T14:29:11 GMT+05:30" duration-ms="54498">
     <groups>
     </groups>
-    <test started-at="2020-12-23T11:15:41 GMT+05:30" name="Test1" finished-at="2020-12-23T11:16:41 GMT+05:30" duration-ms="59552">
+    <test started-at="2020-12-23T14:28:16 GMT+05:30" name="Test1" finished-at="2020-12-23T14:29:11 GMT+05:30" duration-ms="54498">
       <class name="com.educian.Testcases.ValidateLoginTestcase">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.educian.Testcases.ValidateLoginTestcase@366647c2]" started-at="2020-12-23T11:15:42 GMT+05:30" name="setup" finished-at="2020-12-23T11:15:59 GMT+05:30" duration-ms="17432" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.educian.Testcases.ValidateLoginTestcase@36d585c]" started-at="2020-12-23T14:28:16 GMT+05:30" name="setup" finished-at="2020-12-23T14:28:31 GMT+05:30" duration-ms="14313" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="login()[pri:0, instance:com.educian.Testcases.ValidateLoginTestcase@366647c2]" started-at="2020-12-23T11:15:59 GMT+05:30" name="login" finished-at="2020-12-23T11:16:03 GMT+05:30" duration-ms="4235" status="PASS">
+        <test-method signature="login()[pri:0, instance:com.educian.Testcases.ValidateLoginTestcase@36d585c]" started-at="2020-12-23T14:28:31 GMT+05:30" name="login" finished-at="2020-12-23T14:28:36 GMT+05:30" duration-ms="5454" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.educian.Testcases.ValidateLoginTestcase@366647c2]" started-at="2020-12-23T11:16:03 GMT+05:30" name="teardown" finished-at="2020-12-23T11:16:03 GMT+05:30" duration-ms="212" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.educian.Testcases.ValidateLoginTestcase@36d585c]" started-at="2020-12-23T14:28:36 GMT+05:30" name="teardown" finished-at="2020-12-23T14:28:37 GMT+05:30" duration-ms="832" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.educian.Testcases.ValidateLoginTestcase -->
       <class name="com.educian.Testcases.createstudentTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.educian.Testcases.createstudentTest@482bce4f]" started-at="2020-12-23T11:16:03 GMT+05:30" name="setup" finished-at="2020-12-23T11:16:20 GMT+05:30" duration-ms="16486" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.educian.Testcases.createstudentTest@69fb6037]" started-at="2020-12-23T14:28:37 GMT+05:30" name="setup" finished-at="2020-12-23T14:28:49 GMT+05:30" duration-ms="12035" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="createStudent()[pri:1, instance:com.educian.Testcases.createstudentTest@482bce4f]" started-at="2020-12-23T11:16:20 GMT+05:30" name="createStudent" finished-at="2020-12-23T11:16:41 GMT+05:30" duration-ms="20792" status="FAIL">
+        <test-method signature="createStudent()[pri:1, instance:com.educian.Testcases.createstudentTest@69fb6037]" started-at="2020-12-23T14:28:49 GMT+05:30" name="createStudent" finished-at="2020-12-23T14:29:10 GMT+05:30" duration-ms="21126" status="FAIL">
           <exception class="org.openqa.selenium.ElementNotInteractableException">
             <message>
               <![CDATA[element not interactable
   (Session info: chrome=87.0.4280.88)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-OEJBSOD', ip: '192.168.55.89', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
-Driver info: io.testproject.sdk.drivers.web.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\MINZAM~2\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49363}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: {autodetect: false, proxyType: UNSPECIFIED}, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0.0, pageLoad: 300000.0, script: 30000.0}, tp:guid: b18dfbe4-80f0-41c5-84cc-572..., unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 4de2da99ec44a7e4993f0156b3e...}
-Session ID: 4de2da99ec44a7e4993f0156b3ef7e1f]]>
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\MINZAM~2\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52795}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ca7f53b75c7c283c5ee5d85476b26a0d]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
   (Session info: chrome=87.0.4280.88)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-OEJBSOD', ip: '192.168.55.89', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
-Driver info: io.testproject.sdk.drivers.web.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\MINZAM~2\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49363}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: {autodetect: false, proxyType: UNSPECIFIED}, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0.0, pageLoad: 300000.0, script: 30000.0}, tp:guid: b18dfbe4-80f0-41c5-84cc-572..., unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 4de2da99ec44a7e4993f0156b3e...}
-Session ID: 4de2da99ec44a7e4993f0156b3ef7e1f
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\MINZAM~2\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52795}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ca7f53b75c7c283c5ee5d85476b26a0d
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -52,8 +52,7 @@ at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpR
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at io.testproject.sdk.internal.helpers.CustomHttpCommandExecutor.execute(CustomHttpCommandExecutor.java:112)
-at io.testproject.sdk.internal.helpers.CustomHttpCommandExecutor.execute(CustomHttpCommandExecutor.java:96)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
 at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
@@ -62,7 +61,7 @@ at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAc
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at com.sun.proxy.$Proxy14.click(Unknown Source)
+at com.sun.proxy.$Proxy12.click(Unknown Source)
 at com.educian.pages.Createstudent.createStudent(Createstudent.java:105)
 at com.educian.Testcases.createstudentTest.createStudent(createstudentTest.java:39)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -86,7 +85,7 @@ at java.base/java.lang.Thread.run(Thread.java:834)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createStudent -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.educian.Testcases.createstudentTest@482bce4f]" started-at="2020-12-23T11:16:41 GMT+05:30" name="teardown" finished-at="2020-12-23T11:16:41 GMT+05:30" duration-ms="314" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.educian.Testcases.createstudentTest@69fb6037]" started-at="2020-12-23T14:29:10 GMT+05:30" name="teardown" finished-at="2020-12-23T14:29:11 GMT+05:30" duration-ms="676" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
