@@ -81,9 +81,11 @@
 			<version>2.21.0</version>
 			<configuration>
                    <!-- TestNG Suite XML files list for test execution -->
+                   <forkCount>3</forkCount>
+                   <reuseForks>True</reuseForks>
                    <suiteXmlFiles>
-                       <suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
-                       <suiteXmlFile>src/test/resources/test_parameters.xml</suiteXmlFile>
+                       <suiteXmlFile>/EducianPOMTest/testng.xml</suiteXmlFile>
+                      
                    </suiteXmlFiles>
                     <testFailureIgnore>true</testFailureIgnore>
                </configuration>
