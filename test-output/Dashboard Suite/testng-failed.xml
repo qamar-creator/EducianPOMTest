@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite parallel="tests" name="Failed suite [Suite dashboard]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" parallel="classes" name="Test1(failed)">
+<suite name="Failed suite [Dashboard Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Create student Test(failed)">
     <classes>
       <class name="com.educian.Testcases.createstudentTest">
         <methods>
@@ -11,5 +11,5 @@
         </methods>
       </class> <!-- com.educian.Testcases.createstudentTest -->
     </classes>
-  </test> <!-- Test1(failed) -->
-</suite> <!-- Failed suite [Suite dashboard] -->
+  </test> <!-- Create student Test(failed) -->
+</suite> <!-- Failed suite [Dashboard Suite] -->
