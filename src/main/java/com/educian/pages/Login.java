@@ -28,7 +28,7 @@ import com.educian.base.Testbase;
 public class Login extends Testbase {
 
 	 
-		 boolean f;
+		 
 
 	//page factories
 		
