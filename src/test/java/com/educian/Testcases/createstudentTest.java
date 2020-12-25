@@ -27,7 +27,7 @@ public class createstudentTest extends Testbase{
 			 initialization();
 			 login=new Login();
 			  createstudent=new Createstudent();
-		 }
+}
 		 
 
 
