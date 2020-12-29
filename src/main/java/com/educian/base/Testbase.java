@@ -29,7 +29,7 @@ import org.openqa.selenium.support.ui.Select;
 public class Testbase {
 
    public  static Properties prop;
-   public	static int attempts1 ;
+   public	static int attempts ;
 	WebElement uploadElement;
      String  actualResult;
 	String expectedResult;
